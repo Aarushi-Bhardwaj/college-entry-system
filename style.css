@@ -1,0 +1,97 @@
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9; /* light background */
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 20px;
+    color: #1e3c72;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* FORM */
+.form-section {
+    text-align: center;
+}
+
+.form-row {
+    margin-top: 15px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 8px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+.button-row {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+/* BUTTON COLORS */
+.blue {
+    background-color: #2563eb;
+}
+
+.green {
+    background-color: #16a34a;
+}
+
+.red {
+    background-color: #dc2626;
+}
+
+/* TABLE */
+.records {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1e3c72;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
